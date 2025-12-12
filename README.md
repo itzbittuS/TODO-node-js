@@ -2,9 +2,6 @@
 
 A clean, fast, and elegant **Todo CRUD application** built with **Node.js, Express, and EJS** featuring a stunning dark UI with glassmorphism effects.
 
-![My ToDo App Preview](https://i.imgur.com/0vPqK8L.png)
-
-> Live Demo: [https://your-todo-app.herokuapp.com](https://your-todo-app.herokuapp.com) *(replace with your actual link)*
 
 ---
 
