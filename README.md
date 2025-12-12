@@ -25,9 +25,9 @@ A clean, fast, and elegant **Todo CRUD application** built with **Node.js, Expre
 
 | Home Page | Edit Task | Task List |
 |---------|--------|--------|
-| ![Add Task](<img width="1920" height="1080" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/762e6d26-b5c5-4570-8205-78ef2792a525" />)
-) | ![Edit Task](<img width="1920" height="1080" alt="Screenshot (181)" src="https://github.com/user-attachments/assets/658d97b6-df0f-449d-b867-047bae9350f3" />) | ![Tasks](<img width="1920" height="1080" alt="Screenshot (180)" src="https://github.com/user-attachments/assets/af5e92c8-ecb6-4ad9-a34d-f8ac770e1ded" />
-) |
+| ![Add Task]<img width="1920" height="1080" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/762e6d26-b5c5-4570-8205-78ef2792a525" />
+| ![Edit Task]<img width="1920" height="1080" alt="Screenshot (181)" src="https://github.com/user-attachments/assets/658d97b6-df0f-449d-b867-047bae9350f3" /> | ![Tasks](<img width="1920" height="1080" alt="Screenshot (180)" src="https://github.com/user-attachments/assets/af5e92c8-ecb6-4ad9-a34d-f8ac770e1ded" />
+|
 
 ---
 
@@ -41,4 +41,3 @@ A clean, fast, and elegant **Todo CRUD application** built with **Node.js, Expre
 
 ---
 
-### Project Structure
