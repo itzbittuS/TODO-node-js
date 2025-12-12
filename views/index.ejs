@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Todo App</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <h2>My ToDo</h2>
+    </div>
+
+    <div class="center-box">
+        <div class="form-card">
+
+            <h1>Add New Task</h1>
+
+            <form action="/addtodo" method="post">
+                <label>Task Title</label>
+                <input type="text" name="title" required placeholder="Enter task title">
+
+                <label>Task Description</label>
+                <textarea name="description" rows="3" placeholder="Enter task description"></textarea>
+
+                <button type="submit" class="btn-primary">Add Task</button>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="task-container">
+        <h2>Your Tasks</h2>
+
+        <% if (todos.length === 0) { %>
+        <p class="no-task">No tasks added yet</p>
+        <% } %>
+
+        <div class="task-list">
+            <% todos.forEach(todo => { %>
+
+            <div class="task-card">
+
+                <h3><%= todo.title %></h3>
+                <p><%= todo.description %></p>
+
+                <div class="meta">
+                    <span>Status: <%= todo.status %></span>
+                    <span>Category: <%= todo.category %></span>
+                </div>
+
+                <div class="actions">
+                    <a class="edit-btn" href="/edit/<%= todo.id %>">Edit</a>
+                    <a class="delete-btn" href="/delete/<%= todo.id %>">Delete</a>
+                </div>
+
+            </div>
+
+            <% }) %>
+        </div>
+    </div>
+
+</body>
+
+</html>
